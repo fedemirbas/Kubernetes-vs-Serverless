@@ -31,7 +31,7 @@ spec:
         - name: RABBITMQ_CONNECTION
           valueFrom:
             secretKeyRef:
-              key:
+              key: url
               name: rabbitmq-connection
         ports:
         - containerPort: 80
